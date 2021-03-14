@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+  color: black;
+  text-decoration: none;
+}
+
+.head {
+    background-color:orange;  
+}
+
+.rec {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.menu__btn {
+    float: right;
+    padding: 10px 20px;
+    background-color: gray;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.head__fhone, .head__email {
+    line-height: 40px;
+    font-size: 16px;
+    background-color:orange;
+    padding-left: 15px;
+}
+.fuck {
+    width: 60px;
+    height: 60px;
+    
+}
+.inner {
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu {
+   height: 70px; 
+   padding: 15px 15px;
+   color: white;
+    
+}
+.menu ul {
+    list-style: none;
+}
+.menu > ul > li {
+    position: relative;
+    float: left;
+    width: 90px;
+    text-align: center;
+    font-size: 18px;   
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    
+}
+li {
+    padding-top: 10px;
+    
+}
+li a {
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-shadow: 3px 3px 2px black ;
+}
+.first__li {
+    border: 3px solid orange;
+    padding: 10px 20px;
+    
+}
+.second  {
+    margin-top: 10px;
+    
+}
+.second li {
+    padding: 10px 5px;
+    border-bottom: 2px solid orange;
+}
+.menu li .second {
+    display: none;
+}
+.menu li:hover .second {
+    display: inherit;
+}
+.logo {
+   padding-top: 10px;
+   padding-left: 40px;
+}
+.base {
+    height: 250px;
+    background-image: url(fon.jpg);
+}
+
+.container{
+    margin-top: 20px;
+    margin-left: 40px;
+    
+    
+   
+    
+}
+.xo{
+    width: 150px;
+    height: 150px;
+    background: #f14b0e;
+    
+    
+}
+.block{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 1px solid #0e0c0cdb;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+   
+}
+.body{
+    display: flex;
+    justify-content: right;
+}
+.game{
+    min-width: 350px;
+  
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    background-image: url(fon3.jpg)
+    
+
+    }
+.player{
+    width:  150px;
+    height:  60px;
+    margin-top: 70px;
+    
+    float: right;
+    font-size: 18px;
+    
+}
+.playarname{
+    float: left;
+    line-height: 30px;
+    padding-left: 5px;
+    
+     
+       
+}
+.playarname>p{
+    border: 1px solid black;
+    padding: 5px 7px;
+    margin-top: 5px;
+    background-color: white;
+    text-align: center;
+}
+.count{
+    float: left;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    
+    
+}
+.count>p{
+    border: 1px solid black;
+    padding: 5px 11px;
+    margin-top: 5px;
+    background-color: white;
+}
+.button{
+    margin-top: 3px;
+    
+    
+    box-sizing: border-box;
+
+}
+.ngame{
+    margin-right: 2px;
+    padding: 4px 6px;
+    float: right;
+    box-shadow: 1px 1px 3px black;
+    font-size: 15px;
+}
+.slider{
+    margin-left: 5px;
+    width: 350px;
+    height: 220px;
+    background-color: black;
+}

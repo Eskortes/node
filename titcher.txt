@@ -1,0 +1,13 @@
+getElementsByClassName - массив 
+for (var i = 0; i < a.length; i++)
+         a[i].onclick = function(){alert("ggg")} нужно перебирать массив
+
+getElementById - не массив 
+
+window.onload - обработка после загрузки всех элементов
+
+ondblclick - действие двойного щелчка мыши
+
+oncontextmenu - действие правой кнопкой мыши
+
+onmouseenter - действие навидение мыши
