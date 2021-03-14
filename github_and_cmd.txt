@@ -5,6 +5,9 @@ git status - информация о статусе
 git add <file>... - добавить файл в репозиторий/ . - добавть все
 git rm --cached <file> - удалить из репозитория
 git commit -m "name" - создать commit
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name" - login password github
+  git push -u origin <branch> - залить на github
 ________________________________
 dir - просмотр директории пути
 cd - путь к папке
