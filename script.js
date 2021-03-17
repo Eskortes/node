@@ -124,6 +124,7 @@ gamexo.onclick = function (event) {
     checWinner()
 }}
 //__________________________________________________________
+//___function algoritm - division search
 let list = [1,3,5,7,9,11,35,68];
 for (let l = 0; l < list.length; l++){
     list[l]
@@ -151,7 +152,7 @@ function Binary_Search(list, item){
              }
     }
     return NaN; 
-    
+//_________________________________________________    
    
 }
  function not_function(namber){
@@ -161,6 +162,25 @@ function Binary_Search(list, item){
  const menubtn = document.querySelector('.menu__btn')
  console.log(menubtn)
  menubtn.textContent = 'hello world'
+ //___________________________________________________
+ // function replacement color with help Math.random
+ function math_random(number) {
+   return  Math.floor((Math.random() * number) + 1)
+   
+ }
+ function chek_background(color1, color2) {
+      let random_n = math_random(3);
+      
+      if (random_n == 1 )  {
+          document.querySelector('#btn').style.backgroundColor = color2
+       }
+      else if ( random_n == 2) {
+        document.querySelector('#btn').style.backgroundColor = color1
+      }
+      else {document.querySelector('#btn').style.backgroundColor = ''}
+    }
+    chek_background('black', 'yellow')
+    //_______________________________________________________
         // if (allblock[0].innerHTML == 'X' && allblock[1].innerHTML == 'X' && allblock[2].innerHTML == 'X'){Reset(); alert('победили крестики'); winx++;}
         // if (allblock[3].innerHTML == 'X' && allblock[4].innerHTML == 'X' && allblock[5].innerHTML == 'X'){ alert('победили крестики'); winx++;}
         // if (allblock[6].innerHTML == 'X' && allblock[7].innerHTML == 'X' && allblock[8].innerHTML == 'X'){ alert('победили крестики'); winx++;}

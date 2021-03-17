@@ -1,3 +1,5 @@
+lern function and argument____________________________
+
 Работа с DOM__________________________________________
 
 document.querySelector('#foo > div.bar') - один элемент, первый найденый 
