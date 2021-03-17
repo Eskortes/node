@@ -177,9 +177,9 @@ function Binary_Search(list, item){
       else if ( random_n == 2) {
         document.querySelector('#btn').style.backgroundColor = color1
       }
-      else {document.querySelector('#btn').style.backgroundColor = ''}
+      
     }
-    chek_background('black', 'yellow')
+    chek_background('green', 'white')
     //_______________________________________________________
         // if (allblock[0].innerHTML == 'X' && allblock[1].innerHTML == 'X' && allblock[2].innerHTML == 'X'){Reset(); alert('победили крестики'); winx++;}
         // if (allblock[3].innerHTML == 'X' && allblock[4].innerHTML == 'X' && allblock[5].innerHTML == 'X'){ alert('победили крестики'); winx++;}
