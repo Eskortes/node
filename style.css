@@ -216,7 +216,7 @@ li a {
     
 }
 .logo_phone{
-animation: phone 4s  infinite alternate ;
+animation: phone 5s ease-in-out infinite alternate ;
 position: absolute;
 top: 23px;
 }
@@ -226,7 +226,7 @@ top: 23px;
     height: 50px;
 }
 .logo_circle{
-    animation: circle 4s  infinite alternate;
+    animation: circle 5s ease-in-out infinite alternate;
 }
 @keyframes circle {
     0% {width: 100px;
@@ -247,8 +247,8 @@ top: 23px;
         transform: rotateY(0deg)
     }
     50% {
-        width: 50px;
-        margin-left: 0px;
+        width: 0px;
+        margin-left: 24px;
         transform: rotateY(90deg)
     }
     100% {

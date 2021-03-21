@@ -180,6 +180,14 @@ function Binary_Search(list, item){
       
     }
     chek_background('green', 'white')
+    //_________________________________________________
+    //  callback_______________________________________
+
+    const callback = document.querySelector('.callback')
+
+    callback.onclick = () => alert('Катя я тебя люблю')
+
+
     //_______________________________________________________
         // if (allblock[0].innerHTML == 'X' && allblock[1].innerHTML == 'X' && allblock[2].innerHTML == 'X'){Reset(); alert('победили крестики'); winx++;}
         // if (allblock[3].innerHTML == 'X' && allblock[4].innerHTML == 'X' && allblock[5].innerHTML == 'X'){ alert('победили крестики'); winx++;}
