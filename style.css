@@ -193,3 +193,68 @@ li a {
     height: 220px;
     background-color: black;
 }
+.callback{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    z-index: 4000;
+    bottom: 50px;
+    right: 20px;
+}
+.callback_container {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.callback_circle{
+   
+
+}
+.callback_phone img{
+   
+    
+}
+.logo_phone{
+animation: phone 4s  infinite alternate ;
+position: absolute;
+top: 23px;
+}
+.callback_phone{
+    
+    width: 50px;
+    height: 50px;
+}
+.logo_circle{
+    animation: circle 4s  infinite alternate;
+}
+@keyframes circle {
+    0% {width: 100px;
+    }
+    50% {
+        width: 0px;
+    
+    }
+    100% {
+        width: 100px;
+        
+    }
+
+}
+@keyframes phone {
+    0% {width: 50px;
+        margin-left: 0px;
+        transform: rotateY(0deg)
+    }
+    50% {
+        width: 50px;
+        margin-left: 0px;
+        transform: rotateY(90deg)
+    }
+    100% {
+        width: 50px;
+        margin-left: 0px;
+        transform: rotateY(180deg)
+    }
+
+}

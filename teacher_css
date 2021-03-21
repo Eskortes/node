@@ -1,0 +1,9 @@
+transition___________________________________
+
+transition-property – свойство перехода
+transition-duration – продолжительность перехода
+transition-timing-function – временная функция перехода
+transition-delay – задержка начала перехода
+
+transition: property duration timing-function delay
+steps(количество шагов[, start/end]) - разделение анимации на шаги
